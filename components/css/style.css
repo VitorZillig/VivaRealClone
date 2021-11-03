@@ -1,0 +1,435 @@
+nav {
+    width: 100vw;
+    height: 55px;
+    background-color: #0B8BCC;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px 0 40px;
+
+}
+
+.upside input{
+    border: 0;
+}
+
+aside button {
+    color: #74623D;
+}
+
+input:focus{
+    border: 2px solid #0B8BCC !important;
+}
+
+.upside input[type=number]{
+    text-align: right;
+}
+
+.downside input {
+    border: 1px solid rgb(204, 198, 198);
+    text-align: right;
+}
+
+.nav-left-side{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.menu li{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    height: 55px;
+    padding: 15px;
+}
+
+.menu li:hover{
+    background-color: #94a8b3;
+    cursor: pointer;
+}
+
+.logo {
+    width: 120px;
+    height: 35px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.upside {
+    background-color: #FDD685;
+    border: 1px solid orange;
+    padding: 10px;
+    width: 21vw;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 287px;
+
+}
+
+.form-switch {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !;
+}
+
+#flexSwitchCheckDefault {
+    width: 50px;
+    height: 30px;
+}
+
+.form-check-label{
+    font-size: 13px;
+}
+
+.rooms-btn {
+    width: 2.5vw;
+    border-radius: 10px;
+    background-color: white;
+    border: 0.5px solid rgb(206, 204, 204);
+}
+
+.rooms-btn:hover {
+    background-color: #EBEBEB;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+select {
+    width: 100% !important;
+    height: 40px;
+    border-radius: 5px;
+    color: #74623D;
+}
+
+.search input {
+    font-size: 13px;
+    width: 100%;
+    height: 40px;
+}
+
+aside span {
+    font-size: 13px;
+    color: #74623D;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-switch .form-check-input {
+    height: 20px;
+    width: 40px;
+    background-color: #E5CF8C;
+
+}
+
+label {
+    font-size: 11px;
+}
+
+
+
+main {
+    margin-top: 60px;
+    padding: 0px 40px 0px 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.set-parking-spaces {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+ul {
+    padding: 0 !important;
+}
+
+.card {
+    display: flex;
+    flex-direction: row !important;
+    gap: 20px;
+    height: 242px;
+    cursor: pointer;
+}
+
+.habitation-image {
+    max-width: 360px;
+
+}
+
+.habitation-image img {
+    width: 360px;
+    height: 100%;
+}
+
+.address {
+    font-size: 1vw;
+    color: #7575A1;
+}
+
+.content-card-side {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 5px;
+    /* background-color: black; */
+}
+
+.card-head {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    font-size: 1.47vw;
+}
+
+.prices {
+    display: flex;
+    flex-direction: column;
+}
+
+.prices span:last-child{
+    font-weight: 600;
+}
+
+.categories {
+    display: flex;
+    gap: 30px;
+
+    color: #0B8BCC;
+    font-weight: 500;
+}
+
+
+.remove-city-button {
+    background-color: transparent;
+    font-size: 10pxf;
+}
+
+.categories :first-child {
+   border-bottom: 3px solid #0B8BCC;
+}
+
+.error-page {
+    text-align: center;
+    line-height: 70px;
+
+}
+
+.error-page span{
+    color: red;
+}
+
+.card ul {
+    display: flex;
+    gap: 10px;
+    padding-left: 0;
+}
+
+.habitations {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.habitation-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.amenity{
+    background-color: #EBEBEB;
+    color: #A8A8B1;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 40px;
+}
+
+.habitations-counter{
+    display: none;
+}
+
+.additional-words {
+    font-weight: 700 !important;
+    color: pink;
+}
+
+h1 {
+    font-weight: 100 !important;
+}
+
+#counter {
+    font-weight: bold;
+}
+
+.habitation-particulars {
+    display: flex;
+    font-size: 13px;
+    gap:20px
+}
+.property-type {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    width: 200px;
+}
+.set-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.number-rooms {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.set-price input {
+    width: 100%;
+    height: 40px;
+}
+aside{
+    width: 21vw;
+}
+
+.downside {
+    width: 21vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgb(219, 216, 216);
+}
+.set-area {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.area input {
+    width: 100%;
+    height: 40px;
+} 
+
+.card-downside {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    align-items: flex-end;
+}
+
+.card-downside button {
+    background-color: transparent;
+    color:#EE6500;
+    font-weight: 500;
+    border: 0;
+    height: 40px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.card-downside button:hover{
+    background-color: #EE6500;
+    color: white;
+}
+
+.contact-buttons{
+    visibility: hidden;
+    /* transition: display 2s; */
+}
+
+.card:hover .contact-buttons{
+    visibility: inherit;
+}
+
+.price-input {
+    display: flex;
+}
+
+.price-input label {
+    background-color: white;
+    padding: 10px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    color: #A8A8B1;
+}
+
+.recent-searched {
+    display: flex;
+    gap: 10px;
+}
+
+.recent-searched div{
+    border: 1px solid #0B8BCC;
+    cursor: pointer;
+    padding: 5px;
+    color: #0B8BCC;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recent-searched button{
+    color: #0B8BCC;
+    border: 0;
+}
+
+
+.recent-searches button{
+    border: 0;
+    border-radius: 20px;
+}
+
+.recent-searches div:hover button{
+    background-color: #74623D;
+    color: #E5CF8C;
+} 
+
+.recent-searches div{
+    cursor: pointer;
+}
+
+

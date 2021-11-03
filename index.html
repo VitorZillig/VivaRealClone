@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VivaReal Clone</title>
+    
+    <link rel="stylesheet" href="./components/css/reset.css">
+    <link rel="stylesheet" href="./components/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="contaier">
+        <header>
+            <nav>
+                <div class="nav-left-side">
+                    <div class="logo">
+                        <img src="./assets/vivareallogo.png" alt="Viva Real"/>
+                    </div>
+                    <ul class = 'menu'>
+                      <li>COMPRAR</li>
+                      <li>ALUGAR</li>
+                      <li>IMÓVEIS NOVOS</li>
+                      <li>SELEÇÃO VIVA REAL</li>
+                      <li>DESCOBRIR</li>
+                      <li>FINANCIAMENTO</li>  
+                    </ul>
+                </div>
+                
+                <ul class="menu" id="">
+                    <li>ANUNCIAR IMÓVEIS</li>
+                    <li>ENTRAR</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <aside>
+                <section class = upside>
+                    <div class="search">
+                        <span>LOCALIZAÇÃO DO IMÓVEL</span>
+                        <input type="text" name="" id="search-city" placeholder="Digite uma rua, estado ou cidade"/>
+                        <div class = 'recent-searches'></div>
+                    </div>
+                    <div class="property-with">
+                        <span>IMÓVEL COM</span>
+                        <div class="form-check form-switch teste">
+                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
+                            <label class="form-check-label" for="flexSwitchCheckDefault"
+                              >Tour Virtual ou Vídeos</label
+                            >
+                          </div>
+                    </div>
+                    <div class="property-type">
+                        <span>TIPO DE IMÓVEL</span>
+                        <select disabled name="" id="">
+                            <option value="" disabled selected>Mostrar todos</option>
+                        </select>
+                        
+                    </div>
+                    <div class="set-price">
+                        <div class="price">
+                            <span>PREÇO MÍNIMO</span>
+                            <div class="price-input">
+                                <label for="min-price">R$</label>
+                                <input type="number" name="min-price" id="min-price">
+                            </div>
+                            
+                        </div>
+                        <div class="price">
+                            <span>PREÇO MÁXIMO</span>
+                            <div class="price-input">
+                                <label for="max-price">R$</label>
+                                <input type="number" name="" id="max-price"/>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="number-rooms">
+                        <span>NÚMERO DE QUARTOS</span>
+                        <div class="rooms">
+                            <button class = "rooms-btn">1+</button>
+                            <button class = "rooms-btn">2+</button>
+                            <button class = "rooms-btn">3+</button>
+                            <button class = "rooms-btn">4+</button>
+                            <button class = "rooms-btn">5+</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="downside">
+                    <div class="set-area">
+                        <div class="area">
+                            <span>ÁREA MÍNIMA</span>
+                            <input type="number" name="" id="">
+                        </div>
+                        <div class="area">
+                            <span>ÁREA MÁXIMA</span>
+                            <input type="number" name="" id="">
+                        </div>
+                    </div>
+                    <div class="set-parking-spaces">
+                        <span>NÚMERO DE VAGAS NA GARAGEM</span>
+                        <div class="parking-spaces">
+                            <button class = "rooms-btn">1+</button>
+                            <button class = "rooms-btn">2+</button>
+                            <button class = "rooms-btn">3+</button>
+                            <button class = "rooms-btn">4+</button>
+                            <button class = "rooms-btn">5+</button>
+                        </div>
+
+                    </div>
+                    <div class="set-parking-spaces">
+                        <span>NÚMERO DE BANHEIROS</span>
+                        <div class="parking-spaces">
+                            <button class = "rooms-btn">1+</button>
+                            <button class = "rooms-btn">2+</button>
+                            <button class = "rooms-btn">3+</button>
+                            <button class = "rooms-btn">4+</button>
+                            <button class = "rooms-btn">5+</button>
+                        </div>
+                        
+                    </div>
+                </section>     
+            </aside>
+            <section class="habitations">
+                <div>
+                    <ul class = 'categories'>
+                        <li>COMPRAR</li>
+                        <li>ALUGAR</li>
+                        <li>IMÓVEIS NOVOS</li>
+                        <li>SELEÇÃO VILA REAL</li>
+                    </ul>
+                </div>
+                <div class="habitations-counter">
+                    <h1>
+                        <span id="counter"></span>
+                        Imóveis à venda em 
+                        <span id="city"></span>
+                    </h1>
+                </div>
+                <div class="recent-searched">
+
+                </div>
+                <div class="habitation-cards"></div>
+            </section>
+           
+        </main>
+    </div>
+ <script src="./components/js/index.js" type="module"></script>   
+</body>
+</html>
